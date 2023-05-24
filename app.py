@@ -10,8 +10,6 @@ from sklearn.metrics import roc_curve, roc_auc_score
 import dash
 from dash import dcc, html
 from dash.dependencies import Input, Output, State
-import matplotlib.pyplot as plt
-import seaborn as sns
 import plotly.express as px
 import numpy as np
 
