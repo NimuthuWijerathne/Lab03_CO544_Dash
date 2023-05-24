@@ -156,5 +156,5 @@ density, ph, sulphates, alcohol):
     else:
         return "This wine is predicted to be bad quality."
       
- if __name__ == "__main__":
+if __name__ == "__main__":
     app.run_server(debug=False)
